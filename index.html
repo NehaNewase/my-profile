@@ -8,20 +8,38 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <style>
+      p{
+        background-color: rgb(6, 11, 80);
+        color: rgb(231, 219, 250);
+      }
+      h3{
+        background-color: rgb(169, 174, 248);
+        color: maroon;
+      }
+      span{
+        color: red;
+      }
+      #list
+    {
+      background-color: chartreuse;
+      color: green;
+    }
+    </style>
   </head>
   <body>
     <fieldset>
       <legend>
-        <span> <h2> Profile Details </h2></span>
+         <h2> Profile Details </h2>
       </legend>
-      <br>
+      <p>
       <i class="fa fa-user" aria-hidden="true">&nbsp;Neha Kachare</i
       >&nbsp;&nbsp;&nbsp;
-      <i class="fa fa-phone-square" aria-hidden="true">&nbsp;+91-776 777 4434</i
-      >&nbsp;&nbsp;&nbsp;
+      <i class="fa fa-phone-square" aria-hidden="true">&nbsp;+91-776 777 4434</i>&nbsp;&nbsp;&nbsp;
       <i class="fa fa-envelope" aria-hidden="true">&nbsp;neha@gmail.com</i>&nbsp;&nbsp;&nbsp;&nbsp;
       <button><i class="fa fa-download"></i> Download Resume</button>
-      <br /><br />
+    </p>
+      <br/>
         <nav>
       <a href="home.html" target="myProfile">HOME</a>&nbsp;&nbsp;&nbsp;
       <a href="techStak.html" target="myProfile">TECH STACK</a>&nbsp;&nbsp;&nbsp;
@@ -30,11 +48,25 @@
       <a href="personalDetails.html" target="myProfile">ABOUT ME</a>&nbsp;&nbsp;&nbsp; 
       <a href="contactForm.html" target="myProfile">CONTACT</a>
     </nav>
-    <br /><br />
-      <iframe width="600px" height="400px" src="home.html" name="myProfile" frameborder="o"></iframe>
+    <br />
+    <h3>Career Objective</h3>
+    <h5>To work in organization where I can learn and grow my skills and help organizational growth.</h5> 
+    <h3>Professional Summery</h3>
+    <ul>
+        <li>Having 1 years of experience in developing Single page Web Applications using <span>Angular 8</span>, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</li>
+        <li>Experience on working with version control system - GIT and GitHub</li>
+        <li id="list">Experience working with JIRA for user stories and bug tracking</li>
+        <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
+        <li>Working exposure on ID's like VS Code and Notepad++</li>
+        <li>Good working experience under Agile methodologies environment</li>
+        <li>Experience in using Chrome Developer Tool for debugging and Troubleshooting the code</li>
+        <li>Knowledge of NodeJS</li>
+        <li>Ability to work with people at all levels in the program</li>
+    </ul>
+
     </fieldset>
 
-      <span>Follow Me On</span>&nbsp;&nbsp;
+      <span style="color: black;">Follow Me On</span>&nbsp;&nbsp;
     <a href="https://github.com/NehaNewase/my-profile" target="_blank">
       <i class="fa fa-github" aria-hidden="true"></i>
 </a>&nbsp;&nbsp;
