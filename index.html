@@ -8,29 +8,124 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <style>
+      p {
+        background-color: rgb(6, 11, 80);
+        color: rgb(231, 219, 250);
+      }
+      p i {
+        padding: 7px;
+      }
+      h3 {
+        background-color: rgb(169, 174, 248);
+        color: maroon;
+        margin-top: -10px;
+      }
+      a {
+        text-decoration: none;
+      }
+      nav ul li {
+        display: inline;
+        padding: 7px;
+      }
+      nav {
+        margin-top: -20px;
+        margin-left: -43px;
+      }
+      span {
+        color: red;
+      }
+      #list {
+        background-color: chartreuse;
+        color: green;
+      }
+      .list li {
+        margin-bottom: 15px;
+      }
+      .footer a i{
+        padding: 7px;
+        color: blue;
+      }
+      .footer{
+        border: 2px solid;
+        display: inline;
+      }
+    </style>
   </head>
   <body>
     <fieldset>
       <legend>
-        <span> <h2> Profile Details </h2></span>
+        <h2>Profile Details</h2>
       </legend>
-      <br>
-      <i class="fa fa-user" aria-hidden="true">&nbsp;Neha Kachare</i
-      >&nbsp;&nbsp;&nbsp;
-      <i class="fa fa-phone-square" aria-hidden="true">&nbsp;+91-776 777 4434</i
-      >&nbsp;&nbsp;&nbsp;
-      <i class="fa fa-envelope" aria-hidden="true">&nbsp;neha@gmail.com</i
-      ><br /><br />
-        <nav>
-      <a href="home.html" target="home">HOME</a>&nbsp;&nbsp;&nbsp;
-      <a href="techStak.html" target="stack">TECH STACK</a>&nbsp;&nbsp;&nbsp;
-      <a href="projectDetails.html" target="profile">PROFILE</a>&nbsp;&nbsp;&nbsp;
-      <a href="education.html" target="education">EDUCATION</a>&nbsp;&nbsp;&nbsp;
-      <a href="personalDetails.html" target="aboutMe">ABOUT ME</a>&nbsp;&nbsp;&nbsp; 
-      <a href="contactForm.html" target="contact">CONTACT</a>
-    </nav>
-    <br /><br />
-      <iframe width="600px" height="800px" name="education"></iframe>
+      <p>
+        <i class="fa fa-user" aria-hidden="true">Neha Kachare</i>
+        <i class="fa fa-phone-square" aria-hidden="true">+91-776 777 4434</i>
+        <i class="fa fa-envelope" aria-hidden="true">neha@gmail.com</i>
+        <button><i class="fa fa-download"></i> Download Resume</button>
+      </p>
+      <br />
+      <nav>
+        <ul>
+          <li><a href="home.html" target="myProfile">HOME</a></li>
+          <li><a href="techStak.html" target="myProfile">TECH STACK</a></li>
+          <li><a href="projectDetails.html" target="myProfile">PROFILE</a></li>
+          <li><a href="education.html" target="myProfile">EDUCATION</a></li>
+          <li>
+            <a href="personalDetails.html" target="myProfile">ABOUT ME</a>
+          </li>
+          <li><a href="contactForm.html" target="myProfile">CONTACT</a></li>
+        </ul>
+      </nav>
+      <br />
+      <h3>Career Objective</h3>
+      <h5>
+        To work in organization where I can learn and grow my skills and help
+        organizational growth.
+      </h5>
+      <h3>Professional Summery</h3>
+      <ul class="list">
+        <li>
+          Having 1 years of experience in developing Single page Web
+          Applications using <span>Angular 8</span>, HTML5, CSS3, Bootstrap 5,
+          JavaScript, TypeScript
+        </li>
+        <li>
+          Experience on working with version control system - GIT and GitHub
+        </li>
+        <li id="list">
+          Experience working with JIRA for user stories and bug tracking
+        </li>
+        <li>
+          Strong Debugging & Troubleshooting code experience using Chrome
+          Developer Tool
+        </li>
+        <li>Working exposure on ID's like VS Code and Notepad++</li>
+        <li>Good working experience under Agile methodologies environment</li>
+        <li>
+          Experience in using Chrome Developer Tool for debugging and
+          Troubleshooting the code
+        </li>
+        <li>Knowledge of NodeJS</li>
+        <li>Ability to work with people at all levels in the program</li>
+      </ul>
     </fieldset>
+<div class="footer">
+    <span style="color: black">Follow Me On</span>
+    <a href="https://github.com/NehaNewase/my-profile" target="_blank">
+      <i class="fa fa-github" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.linkedin.com/login" target="_blank">
+      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.instagram.com/accounts/login/" target="_blank">
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+    </a>
+    <a
+      href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569891%7Cb%7Cfacebook%20signin%7C&placement=&creative=589460569891&keyword=facebook%20signin&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696221832%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-3821998899%26loc_physical_ms%3D9062118%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjw4s-kBhDqARIsAN-ipH1NXCXKYlyUNUUJOyNRWIBNF7fqEqRqFsj2TWjw5gQ0b_nddFZbozkaAs9eEALw_wcB"
+      target="_blank"
+    >
+      <i class="fa fa-facebook-official" aria-hidden="true"></i>
+    </a>
+  </div>
   </body>
 </html>
