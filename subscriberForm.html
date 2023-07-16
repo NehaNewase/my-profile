@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <style>
+        .main{
+            border: 5px solid rgb(245, 243, 243);
+            width: 350px;
+            height: 510px;
+            background-color: rgb(252, 252, 252);
+        }
+        .main h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(89, 111, 136);
+        }
+        .form td{
+           padding: 10px;
+           display: flex;
+           font-family: 'Merriweather', serif;
+        } 
+        .para{
+           width: 300px;
+           height: 200px;
+            border: 5px solid whitesmoke;
+           background-color: rgb(116, 180, 240);
+           color: rgb(255, 255, 255);
+           text-align: center;
+           border-radius: 10px;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           margin-left: 20px;
+           padding-bottom: 10px;
+        }
+        .button button{
+            font-weight: bold;
+            border: 2px solid rgb(245, 235, 216);
+            margin-left: 210px;
+            margin-top: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(100, 104, 104);
+            background-color: rgb(224, 228, 228);
+        }
+        #star label::after{
+            content: "*";
+            color: red;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h2>Subscriber</h2><hr>
+        <div class="para">
+            <p>We're sorry to see you go, but hey, no hard
+                feelings, hopefully we will see you back one day.
+                Please fill in your email address in order to
+                unsubscribe from the list.
+                You will receive an email to confirm your
+                unsubscrintion just to make sure this is
+                not an accident of somebody else tries to
+                unsubscribe you.</p>
+        </div>
+        <div class="form">
+            <table>
+            <tbody>
+            <form>
+                <tr>
+            <td id="star"><label>Email</label></td>
+            <td><input type="email" placeholder="Enter Your Email" required></td>
+           </tr>
+           <tr>
+            <td><label>Unsubscribe Reason</label></td>
+            <td><textarea></textarea></td>
+        </tr>
+            </form>
+        
+        </tbody>
+        </table>
+        </div>
+        <div class="button">
+            <button type="submit">Unsubscribe</button>
+        </div>
+
+    </div>
+</body>
+</html>
